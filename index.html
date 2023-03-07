@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>Show De Bola</title>
+    <script></script>
+    <style>
+      /* Fonts Imports */
+      @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,100;1,200&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+      /* Container Global */
+      body {
+        display: flex;
+        background-color: #e5e5e5;
+        width: 100%;
+        margin: 0px;
+        flex-direction: column;
+      }
+
+      /* Header, Footer */
+      footer,
+      header {
+        width: 100%;
+        display: flex;
+        background-color: #ffffff;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: baseline;
+      }
+
+      header h2 {
+        font-family: 'Abel', 'Sofia Sans', sans-serif;
+        color: #fca311;
+        font-size: 50px;
+      }
+
+      header p {
+        font-family: 'Sofia Sans', sans-serif;
+        color: #14213d;
+        font-size: 30px;
+        font-weight: 10px;
+      }
+
+      /* Container */
+      div.container {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+      }
+
+      div.mediumContainer {
+        padding: 30px;
+        margin: 30px;
+        border-radius: 5px;
+      }
+
+      /* Main Section */
+      section.MainSection {
+        padding: 30px;
+        display: flex;
+        background-color: #e5e5e5;
+        width: 100%;
+        justify-content: space-around;
+        color: #14213d;
+      }
+
+      section.MainSection div {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+      }
+
+      /* Main Section Text */
+      section.MainSection div h2 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 40px;
+      }
+
+      section.MainSection div p {
+        font-family: 'Abel', 'Sofia Sans', sans-serif;
+        font-size: 30px;
+      }
+
+      /* Table Section */
+      section.TableSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #14213d;
+        color: #e5e5e5;
+        padding: 40px;
+      }
+
+      section.TableSection h2 {
+        font-family: 'Abel', 'Sofia Sans', sans-serif;
+        font-size: 50px;
+      }
+
+      section.TableSection .Tables {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 100px;
+        grid-row-gap: 20px;
+        grid-auto-flow: column;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+      }
+
+      section.TableSection .Tables div img {
+        width: 32px;
+        height: 32px;
+      }
+
+      section.TableSection .Tables div {
+        display: flex;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>Show De Bola</h2>
+      <p>O Melhor do Futebol Brasileiro</p>
+    </header>
+    <div class="container">
+      <section class="MainSection">
+        <div>
+          <h2>Flamengo em Decandencia!!! <br> Vitor Pereira Demitido??? </h2>
+          <p>Vasco Da Gama vence de 1x0 o flamengo em pleno maracanã</p>
+        </div>
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/W8Y0GAscnSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </section>
+      <section class="TableSection">
+        <h2>Tabela do Carioca</h2>
+        <div class="Tables">
+          <div>
+            <img src="https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"> Flamengo 23pts
+          </div>
+          <div>
+            <img src="https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"> Fluminense 22pts
+          </div>
+          <div>
+            <img src="https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"> Vasco da Gama 20pts
+          </div>
+          <div>
+            <img src="https://s.sde.globo.com/media/organizations/2021/04/27/Volta-Redonda-2020.svg"> Volta Redonda 19pts
+          </div>
+          <div>
+            <img src="https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"> Botafogo 19pts
+          </div>
+          <div>
+            <img src="https://s.sde.globo.com/media/teams/2023/01/11/Audax-Rio-65.png"> Audax Rio 13pts
+          </div>
+          <div>
+            <img src="https://s.sde.globo.com/media/organizations/2020/02/10/bangu-logo-escudo.svg"> Bangu 12pts
+          </div>
+          <div>
+            <img src="https://s.sde.globo.com/media/organizations/2019/01/08/Portuguesa-RJ_px09U59.svg"> Portuguesa-RJ 10pts
+          </div>
+          <div>
+            <img src="https://s.sde.globo.com/media/organizations/2019/01/08/Nova-Iguacu-01.svg"> Nova Iguaçu 10pts
+          </div>
+          <div>
+            <img src="https://s.sde.globo.com/media/organizations/2019/01/08/madureira.svg"> Madureira 9pts
+          </div>
+          <div>
+            <img src="https://s.sde.globo.com/media/organizations/2019/01/08/Boavista.svg"> Boavista 5pts
+          </div>
+          <div>
+            <img src="https://s.sde.globo.com/media/organizations/2023/01/14/resende-svg.svg"> Resende 4pts
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <h2>Feito com ❤️ por João Vitor Klabacher Carvalho</h2>
+    </footer>
+  </body>
+</html>
